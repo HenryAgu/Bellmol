@@ -1,0 +1,126 @@
+footer{
+    background-color: #0b3954;
+    height: 45vh;
+    color: white;
+}
+
+.inner-footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 50px; */
+}
+
+.footer-logo img{
+    width: 100px;
+    height: 60px;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-social i{
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.copyright{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.location-text ul li{
+    margin-bottom: 20px;
+}
+
+.location-text ul li b{
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.location-text ul li p{
+    font-size: 16px;
+}
+
+.location-icon i{
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+.know-more{
+    font-family: "Work Sans", sans-serif;
+    margin-left: 50px;
+}
+
+.know-more h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.know-more ul li{
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.know-more ul li a{
+    color: white;
+}
+
+.know-more ul li a:hover{
+    border-bottom: 1.5px solid white;
+}
+
+/* Responsiveness starts here */
+/* medium screens */
+ @media (max-width: 991px) {
+    footer{
+        background-color: #0b3954;
+        height: 100%;
+        padding-bottom: 50px;
+        color: white;
+    }
+    .footer-social i{
+        font-size: 22px;
+        margin-right: 20px;
+    }
+ }
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+    footer{
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .footer-logo{
+        order: 1;
+    }
+    .inner-footer{
+        gap: 50px;
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .location{
+        flex-direction: column;
+    }
+    .footer-social{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .know-more{
+        margin-left: 0;
+    }
+}

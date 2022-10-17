@@ -1,0 +1,116 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 100vh;
+}
+
+.navbar-start{
+    margin-left: 120px;
+}
+
+.navbar-item p{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.navbar-item p:hover,.navbar-item p:focus{
+    color: #475C95;
+}
+
+.navbar-start .link{
+    margin-left: 50px;
+}
+
+.navbar-end{
+    display: flex;
+    align-items: center;
+}
+
+.cert{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navbar-end span:hover{
+    color: #0b3954;
+}
+
+.navbar-end span{
+    color: #001D3D;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.navbar-end i{
+    font-size: 15px;
+    color: #001D3D;
+    margin-right: 3px;
+    text-align: center;
+}
+
+.navbar-end i:hover{
+    color: #0b3954;
+}
+
+.navbar-end button{
+    background-color: #001D3D;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+    border-radius: 7px;
+    margin-left: 80px;
+}
+
+.navbar-end button:hover{
+    background-color: #0b3954;
+}
+
+/* Responsiveness starts here */
+/* medium screens */
+@media (max-width: 991px) {
+    .navbar {
+        height: 4vh;
+    }
+    .navbar-start{
+        margin-left: 0;
+    }    
+    .navbar-end{
+        flex-direction: column;
+        position: relative;
+        right: 300px;
+    }
+}
+
+
+/* Small screens */
+@media only screen and (max-width: 480px) {
+    .navbar-end{
+        flex-direction: column;
+        position: relative;
+        left: -130px;
+    }
+    .navbar-start .link{
+        margin-left: 20px;
+    }
+    .navbar-brand img{
+        width: 100px;
+        height: 120vh;
+    }
+}
