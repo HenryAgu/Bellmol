@@ -3,6 +3,12 @@
 A portfolio website for Bellmol Global Resource, a Nigeria registered company that provides best professional and effective service.
 
 # Screenshot
+![bell 1](https://user-images.githubusercontent.com/74037448/196241502-036e259b-3bac-4b8e-aa7f-d211ddbb1f5a.PNG)
+
+![bell 2](https://user-images.githubusercontent.com/74037448/196241506-7658ddc8-8c54-44ff-b529-93b812527903.PNG)
+![bell 3](https://user-images.githubusercontent.com/74037448/196241521-c4cf477b-7a8c-45a2-8297-9607d20803d9.PNG)
+![bell](https://user-images.githubusercontent.com/74037448/196241528-49350a58-e8b0-4d50-bfe5-fe47171967ac.PNG)
+
 
 ### Built with
 
